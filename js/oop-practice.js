@@ -82,13 +82,34 @@
 //    }
 //}
 
-//const myAnimal = new Animal('Dog', 'Jack-Russel', 'White and Brown', '10-in.', '18-in.')
+//const myAnimal = new Animal('Dog', 'Jack-Russel Terrier', 'White & Brown', '10-in.', '18-in.')
 
 //for(let property in myAnimal) {
 //    console.log(`${property} ${myAnimal[property]}`)
 //}
 
 // STEP 7
+//class Animal {
+//    constructor(type, breed, color, height, length) {
+//        this.type = type
+//        this.breed = breed
+//        this.color = color
+//        this.height = height
+//        this.length = length
+//    }
+//speak(){
+//    if(this.type === 'Dog')
+//        return `The ${this.color} dog is barking!`
+//    else if(this.type === 'Cat') {
+//        return `The ${this.color} cat is meowing!`
+//        }
+//    }
+//}
+
+//const myAnimalDog = new Animal('Dog', 'Jack-Russel Terrier', 'White & Brown', '10-in.', '18-in.')
+//console.log(myAnimalDog.speak())
+//const myAnimalCat = new Animal('Cat', 'Tabby', 'Orange', '7-in.', '15-in.')
+//console.log(myAnimalCat.speak())
 
 // STEP 8
 
