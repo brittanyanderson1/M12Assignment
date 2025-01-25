@@ -112,31 +112,44 @@
 //console.log(myAnimalCat.speak())
 
 // STEP 8
-class Animal {
-    #type
-    #breed
-    #color
-    #height
-    #length
+//class Animal {
+//    #type
+//    #breed
+//    #color
+//    #height
+//    #length
 
-    constructor(type, breed, color, height, length) {
-        this.#type = type
-        this.#breed = breed
-        this.#color = color
-        this.#height = height
-        this.#length = length
-}
-#checkType() {
-    return this.#type === 'Dog' ? 'Dog' : 'Cat'
-}
+//    constructor(type, breed, color, height, length) {
+//        this.#type = type
+//        this.#breed = breed
+//        this.#color = color
+//        this.#height = height
+//        this.#length = length
+//}
+//#checkType() {
+//    return this.#type === 'Dog' ? 'Dog' : 'Cat'
+//}
 
-speak() {
-    return `The ${this.#checkType()} has made a noise`
-    }
-}
+//speak() {
+//    return `The ${this.#checkType()} has made a noise`
+//    }
+//}
 
-const myAnimalDog = new Animal('Dog', 'Jack-Russel Terrier', 'White & Brown', '10-in.', '18-in.')
-console.log(myAnimalDog.speak())
+//const myAnimalDog = new Animal('Dog', 'Jack-Russel Terrier', 'White & Brown', '10-in.', '18-in.')
+//console.log(myAnimalDog.speak())
 
-const myAnimalCat = new Animal('Cat', 'Tabby', 'Orange', '7-in.', '15-in.')
-console.log(myAnimalCat.speak())
+//const myAnimalCat = new Animal('Cat', 'Tabby', 'Orange', '7-in.', '15-in.')
+//console.log(myAnimalCat.speak())
+
+//STEP 9
+//String.prototype.findWords = function(word) {
+//    const regex = new RegExp(`\\b${word}\\b`, 'gi')
+//    const matches = this.match(regex)
+    
+//    alert(`The word '${word}' was found ${matches ? matches.length: 0} times`)
+//}
+
+//const paragraph = 'Fluffy pancakes are the best. Everyone I make pancakes for as for them to be thick and fluffy. Some people order
+//slightly fluffy but, extra fluffy pancakes are the best!'
+
+//paragraph.findWords('fluffy')
