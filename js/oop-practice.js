@@ -112,5 +112,31 @@
 //console.log(myAnimalCat.speak())
 
 // STEP 8
+class Animal {
+    #type
+    #breed
+    #color
+    #height
+    #length
 
-// STEP 9
+    constructor(type, breed, color, height, length) {
+        this.#type = type
+        this.#breed = breed
+        this.#color = color
+        this.#height = height
+        this.#length = length
+}
+#checkType() {
+    return this.#type === 'Dog' ? 'Dog' : 'Cat'
+}
+
+speak() {
+    return `The ${this.#checkType()} has made a noise`
+    }
+}
+
+const myAnimalDog = new Animal('Dog', 'Jack-Russel Terrier', 'White & Brown', '10-in.', '18-in.')
+console.log(myAnimalDog.speak())
+
+const myAnimalCat = new Animal('Cat', 'Tabby', 'Orange', '7-in.', '15-in.')
+console.log(myAnimalCat.speak())
