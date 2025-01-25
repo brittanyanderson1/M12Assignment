@@ -58,20 +58,35 @@
 //myAnimal.displayMessage()
 
 // STEP 5
-class Animal {
-    constructor(type, breed, color, height, length) {
-        this.type = type
-        this.breed = breed
-        this.color = color
-        this.height = height
-        this.length = length
-    }
-}
+//class Animal {
+//    constructor(type, breed, color, height, length) {
+//        this.type = type
+//        this.breed = breed
+//        this.color = color
+//        this.height = height
+//        this.length = length
+//    }
+//}
 
-const myAnimal = new Animal('Gerbil', 'Fat Tailed', 'Gray', '4-in', '2-in')
-console.log(myAnimal)
+//const myAnimal = new Animal('Gerbil', 'Fat Tailed', 'Gray', '4-in.', '2-in.')
+//console.log(myAnimal)
 
 // STEP 6
+//class Animal {
+//    constructor(type, breed, color, height, length) {
+//        this.type = type
+//        this.breed = breed
+//        this.color = color
+//        this.height = height
+//        this.length = length
+//    }
+//}
+
+//const myAnimal = new Animal('Dog', 'Jack-Russel', 'White and Brown', '10-in.', '18-in.')
+
+//for(let property in myAnimal) {
+//    console.log(`${property} ${myAnimal[property]}`)
+//}
 
 // STEP 7
 
