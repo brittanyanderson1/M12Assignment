@@ -45,6 +45,17 @@
 //myAnimal.messageDisplayed()
 
 // STEP 4
+class Animal {
+    constructor(message) {
+        this.message = message
+    }
+    displayMessage() {
+        console.log(this.message)
+    }
+}
+
+const myAnimal = new Animal('The Animal has been created.')
+myAnimal.displayMessage()
 
 // STEP 5
 
