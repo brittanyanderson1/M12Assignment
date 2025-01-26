@@ -30,6 +30,7 @@ class Album {
         return `${this.artist} : ${this.title}. The album has been played ${this.played} times.`
     }
 }
+
 const albums = []
 var jbox = new Jukebox(albums)
 const album1 = new Album('Red Hot Chilli Peppers', 'Californiacation')
@@ -39,7 +40,6 @@ const album3 = new Album('Puddle of Mudd', 'Blurry')
 jbox.addAlbum(album1)
 jbox.addAlbum(album2)
 jbox.addAlbum(album3)
-
 
 const albumSelect = document.getElementById('albumSelect')
     albums.forEach((album, index) => {
