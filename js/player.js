@@ -34,7 +34,7 @@ const albums = []
 var jbox = new Jukebox(albums)
 const album1 = new Album('Red Hot Chilli Peppers', 'Californiacation')
 const album2 = new Album('Blink 182', 'All the Small Things')
-const album3 = new Album('Puddle of Mud', 'Blurry')
+const album3 = new Album('Puddle of Mudd', 'Blurry')
 
 jbox.addAlbum(album1)
 jbox.addAlbum(album2)
